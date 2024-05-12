@@ -1,0 +1,308 @@
+Test run date and time: 2024-05-12 17:02:28
+
+Running API endpoint tests:
+Station id: 78, command: getVersion, payload: None
+Status code: 200
+Result: {}
+PASS -- Correct status code and Response
+
+Station id: 1, command: getVersion, payload: None
+Status code: 200
+Result: {'result': '1.5'}
+PASS -- Correct status code and Response
+
+Station id: 2, command: getVersion, payload: None
+Status code: 200
+Result: {'result': '1.6'}
+PASS -- Correct status code and Response
+
+Station id: 3, command: getVersion, payload: None
+Status code: 200
+Result: {'result': '1.6'}
+PASS -- Correct status code and Response
+
+Station id: 4, command: getVersion, payload: None
+Status code: 200
+Result: {'result': '1.7'}
+PASS -- Correct status code and Response
+
+Station id: 5, command: getVersion, payload: None
+Status code: 500
+Result: None
+FAIL -- status code: 500 - Incorrect status code
+
+Station id: 1, command: getInterval, payload: None
+Status code: 200
+Result: {'result': 0}
+PASS -- Correct status code and Response
+
+Station id: 2, command: getInterval, payload: None
+Status code: 200
+Result: {'result': 1}
+PASS -- Correct status code and Response
+
+Station id: 3, command: getInterval, payload: None
+Status code: 200
+Result: {'result': 20}
+PASS -- Correct status code and Response
+
+Station id: 4, command: getInterval, payload: None
+Status code: 200
+Result: {'result': 60}
+PASS -- Correct status code and Response
+
+Station id: 5, command: getInterval, payload: None
+Status code: 500
+Result: None
+FAIL -- status code: 500 - Incorrect status code
+
+Station id: 1, command: setValues, payload: hello
+Status code: 200
+Result: {'result': 'FAILED'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 1, command: setValues, payload: 12.5
+Status code: 200
+Result: {'result': 'FAILED'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 1, command: setValues, payload: True
+Status code: 200
+Result: {'result': 'FAILED'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 1, command: setValues, payload: [1, 2, 3, 4, 5, 6]
+Status code: 200
+Result: {'result': 'FAILED'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 1, command: setValues, payload: 
+Status code: 200
+Result: {'result': 'FAILED'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 1, command: setValues, payload: {1: 'first name', 2: 'last name', 'age': 33}
+Status code: 200
+Result: {'result': 'FAILED'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 2, command: setValues, payload: hello
+Status code: 200
+Result: {'result': 'FAILED'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 2, command: setValues, payload: 12.5
+Status code: 200
+Result: {'result': 'FAILED'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 2, command: setValues, payload: True
+Status code: 200
+Result: {'result': 'FAILED'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 2, command: setValues, payload: [1, 2, 3, 4, 5, 6]
+Status code: 200
+Result: {'result': 'FAILED'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 2, command: setValues, payload: 
+Status code: 200
+Result: {'result': 'FAILED'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 2, command: setValues, payload: {1: 'first name', 2: 'last name', 'age': 33}
+Status code: 200
+Result: {'result': 'FAILED'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 3, command: setValues, payload: hello
+Status code: 200
+Result: {'result': 'OK'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 3, command: setValues, payload: 12.5
+Status code: 200
+Result: {'result': 'OK'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 3, command: setValues, payload: True
+Status code: 200
+Result: {'result': 'OK'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 3, command: setValues, payload: [1, 2, 3, 4, 5, 6]
+Status code: 200
+Result: {'result': 'OK'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 3, command: setValues, payload: 
+Status code: 200
+Result: {'result': 'OK'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 3, command: setValues, payload: {1: 'first name', 2: 'last name', 'age': 33}
+Status code: 200
+Result: {'result': 'OK'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 4, command: setValues, payload: hello
+Status code: 200
+Result: {'result': True}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 4, command: setValues, payload: 12.5
+Status code: 200
+Result: {'result': True}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 4, command: setValues, payload: True
+Status code: 200
+Result: {'result': True}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 4, command: setValues, payload: [1, 2, 3, 4, 5, 6]
+Status code: 200
+Result: {'result': True}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 4, command: setValues, payload: 
+Status code: 200
+Result: {'result': True}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 4, command: setValues, payload: {1: 'first name', 2: 'last name', 'age': 33}
+Status code: 200
+Result: {'result': True}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 5, command: setValues, payload: hello
+Status code: 500
+Result: None
+FAIL -- status code: 500 - Incorrect status code
+
+Station id: 5, command: setValues, payload: 12.5
+Status code: 500
+Result: None
+FAIL -- status code: 500 - Incorrect status code
+
+Station id: 5, command: setValues, payload: True
+Status code: 500
+Result: None
+FAIL -- status code: 500 - Incorrect status code
+
+Station id: 5, command: setValues, payload: [1, 2, 3, 4, 5, 6]
+Status code: 500
+Result: None
+FAIL -- status code: 500 - Incorrect status code
+
+Station id: 5, command: setValues, payload: 
+Status code: 500
+Result: None
+FAIL -- status code: 500 - Incorrect status code
+
+Station id: 5, command: setValues, payload: {1: 'first name', 2: 'last name', 'age': 33}
+Status code: 500
+Result: None
+FAIL -- status code: 500 - Incorrect status code
+
+Station id: 1, command: setValues, payload: None
+Status code: 200
+Result: {'result': 'FAILED'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 2, command: setValues, payload: None
+Status code: 200
+Result: {'result': 'FAILED'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 3, command: setValues, payload: None
+Status code: 200
+Result: {'result': 'OK'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 4, command: setValues, payload: None
+Status code: 200
+Result: {'result': True}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 5, command: setValues, payload: None
+Status code: 500
+Result: None
+FAIL -- status code: 500 - Incorrect status code
+
+Station id: 1, command: setValues, payload: 100
+Status code: 200
+Result: {'result': 'FAILED'}
+PASS -- Correct status code and Response
+
+Station id: 2, command: setValues, payload: 100
+Status code: 200
+Result: {'result': 'FAILED'}
+PASS -- Correct status code and Response
+
+Station id: 3, command: setValues, payload: 100
+Status code: 200
+Result: {'result': 'OK'}
+PASS -- Correct status code and Response
+
+Station id: 4, command: setValues, payload: 100
+Status code: 200
+Result: {'result': True}
+FAIL -- Result is not a <class 'str'>
+
+Station id: 5, command: setValues, payload: 100
+Status code: 500
+Result: None
+FAIL -- status code: 500 - Incorrect status code
+
+Station id: 1, command: getVersion, payload: 100
+Status code: 200
+Result: {'result': '1.5'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 2, command: getVersion, payload: 100
+Status code: 200
+Result: {'result': '1.6'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 3, command: getVersion, payload: 100
+Status code: 200
+Result: {'result': '1.6'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 4, command: getVersion, payload: 100
+Status code: 200
+Result: {'result': '1.7'}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 5, command: getVersion, payload: 100
+Status code: 500
+Result: None
+FAIL -- status code: 500 - Incorrect status code
+
+Station id: 1, command: getInterval, payload: 100
+Status code: 200
+Result: {'result': 0}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 2, command: getInterval, payload: 100
+Status code: 200
+Result: {'result': 1}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 3, command: getInterval, payload: 100
+Status code: 200
+Result: {'result': 20}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 4, command: getInterval, payload: 100
+Status code: 200
+Result: {'result': 60}
+FAIL -- status code: 200 - Incorrect status code
+
+Station id: 5, command: getInterval, payload: 100
+Status code: 500
+Result: None
+FAIL -- status code: 500 - Incorrect status code
+
