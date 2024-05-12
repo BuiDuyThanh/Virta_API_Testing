@@ -33,7 +33,7 @@ _You **can** combine them_
 ## How To Run
 
 Automation tests: 
-run tests/automation_tests.py
+run `tests/automation_tests.py`
 
 Exploratory tests: 
-run tests/exploratory_tests.py
+run `tests/exploratory_tests.py`

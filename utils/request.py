@@ -1,4 +1,3 @@
-from dataclasses import dataclass
 import requests
 from resources.urls import base_url
 
@@ -7,7 +6,7 @@ class APIRequest:
     # Function to send a request to the /tests/{stationId} endpoint
 """
 
-
+"""
 def send_request(station_id, command, payload=None):
     url = f'{base_url}/tests/{station_id}'
     data = {'command': command}
@@ -15,6 +14,7 @@ def send_request(station_id, command, payload=None):
         data['payload'] = payload
     response = requests.post(url, json=data)
     return response
+"""
 
 
 def send_api_request(station_id, command, payload=None):
