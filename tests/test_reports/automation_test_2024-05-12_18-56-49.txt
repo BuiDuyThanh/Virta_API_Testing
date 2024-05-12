@@ -1,0 +1,95 @@
+--------------------------------------------------
+Test POST request with commands to station 1
+--------------------------------------------------
+
+Request should return valid version of station 1
+PASSED -- Test for 'getVersion' passed successfully
+
+Request should return valid interval of station 1
+PASSED -- Test for 'getInterval' passed successfully
+
+Request should return valid status on the set operation of 1
+PASSED -- Test for 'setValues' passed successfully
+
+Request with invalid command to station 1
+PASSED -- Test for handling invalid command passed successfully
+
+Request with invalid payload for setValues to station 1
+FAILED -- Assertion error: status code: 200 - Incorrect status code
+
+--------------------------------------------------
+Test POST request with commands to station 2
+--------------------------------------------------
+
+Request should return valid version of station 2
+PASSED -- Test for 'getVersion' passed successfully
+
+Request should return valid interval of station 2
+PASSED -- Test for 'getInterval' passed successfully
+
+Request should return valid status on the set operation of 2
+PASSED -- Test for 'setValues' passed successfully
+
+Request with invalid command to station 2
+PASSED -- Test for handling invalid command passed successfully
+
+Request with invalid payload for setValues to station 2
+FAILED -- Assertion error: status code: 200 - Incorrect status code
+
+--------------------------------------------------
+Test POST request with commands to station 3
+--------------------------------------------------
+
+Request should return valid version of station 3
+PASSED -- Test for 'getVersion' passed successfully
+
+Request should return valid interval of station 3
+PASSED -- Test for 'getInterval' passed successfully
+
+Request should return valid status on the set operation of 3
+PASSED -- Test for 'setValues' passed successfully
+
+Request with invalid command to station 3
+PASSED -- Test for handling invalid command passed successfully
+
+Request with invalid payload for setValues to station 3
+FAILED -- Assertion error: status code: 200 - Incorrect status code
+
+--------------------------------------------------
+Test POST request with commands to station 4
+--------------------------------------------------
+
+Request should return valid version of station 4
+PASSED -- Test for 'getVersion' passed successfully
+
+Request should return valid interval of station 4
+PASSED -- Test for 'getInterval' passed successfully
+
+Request should return valid status on the set operation of 4
+FAILED -- Assertion error: Unexpected result
+
+Request with invalid command to station 4
+PASSED -- Test for handling invalid command passed successfully
+
+Request with invalid payload for setValues to station 4
+FAILED -- Assertion error: status code: 200 - Incorrect status code
+
+--------------------------------------------------
+Test POST request with commands to station 5
+--------------------------------------------------
+
+Request should return valid version of station 5
+FAILED -- Assertion error: status code: 500 - Incorrect status code
+
+Request should return valid interval of station 5
+FAILED -- Assertion error: status code: 500 - Incorrect status code
+
+Request should return valid status on the set operation of 5
+FAILED -- Assertion error: status code: 500 - Incorrect status code
+
+Request with invalid command to station 5
+PASSED -- Test for handling invalid command passed successfully
+
+Request with invalid payload for setValues to station 5
+FAILED -- Assertion error: status code: 500 - Incorrect status code
+
